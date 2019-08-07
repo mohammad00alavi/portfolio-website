@@ -69,6 +69,8 @@
     section.contact form button {
       grid-column: 1;
       grid-row: 7; }
+    section.contact form div {
+      grid-column: 1; }
   section.address div {
     grid-template-columns: 1fr; }
     section.address div div {

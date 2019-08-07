@@ -38,12 +38,13 @@
             <h1>CONTACT ME</h1>
             <p class="long">Here is how you can reach me</p>
         </div>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <input type="text" name="name" placeholder="Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
             <input type="text" name="subject" placeholder="Subject" required>
             <input type="text" name="phone-num" placeholder="Phone Number">
             <textarea name="message" placeholder="Enter Message" required></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-dark">Submit</button>
         </form>
     </section>

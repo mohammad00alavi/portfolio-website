@@ -255,6 +255,10 @@ section.contact {
     grid-gap: 1rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 3fr 2fr 1fr; }
+    section.contact form div {
+      justify-self: center;
+      align-self: center;
+      grid-column: 1 / span 2; }
     section.contact form input, section.contact form textarea, section.contact form button {
       display: block; }
   section.contact input {
